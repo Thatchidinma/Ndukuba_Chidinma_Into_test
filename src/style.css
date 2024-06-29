@@ -59,8 +59,8 @@ footer{
     }
 
     #addedColors{
+        min-height: fit-content;
         max-height: 100px;
-        overflow: scroll;
     }
 
     footer{
