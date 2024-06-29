@@ -20,6 +20,9 @@ function changeColor() {
     addedColors.style.border = `10px, whitesmoke, double`
     addedColors.style.borderRadius = `10px`
     addedColors.style.backgroundColor = color[0]
+    buttonOnPage.style.color = color[1]
+    buttonOnPage.style.border = "3px solid white"
+    buttonOnPage.style.backgroundColor = "offwhite"
     document.getElementById('addedColors').innerHTML += color[0] + " and "+ color[1] + ', '
     console.log(color)
 }
