@@ -34,6 +34,7 @@ h1,h2,div{
     border-radius: 10px;
     font-size: large;
     border: none;
+    color: black;
 }
 
 #addedColors{
