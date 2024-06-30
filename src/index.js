@@ -4,7 +4,7 @@ let main = document.getElementById('main');
 let addedColors =  document.getElementById('addedColors')
 
 let arrOfColors= [
-    ["#4ABDAC" , "lightseagreen"],
+    ["#4abdac" , "lightseagreen"],
     ["#ffd700", "#ffbf00"],
     ["skyblue" , "#5bccf6"],
     ["#ea738dff" , "palevioletred"],
@@ -42,11 +42,8 @@ buttonOnPage ,
 }
 )
 
-if ((addedColors.offsetHeight = 200 && screen.width > 600) || (addedColors.offsetHeight  = 100 && screen.width <= 600)) {
+if (addedColors.offsetHeight = 200) {
     var styleElement = document.createElement("style");
     styleElement.appendChild(document.createTextNode("#addedColors::-webkit-scrollbar {-webkit-appearance: none;width: 10px;} #addedColors::-webkit-scrollbar-thumb {border-radius: 4px;background-color: rgba(250,250,250,.5);}"));
     document.getElementsByTagName("head")[0].appendChild(styleElement);	
 }
-
- 
-
