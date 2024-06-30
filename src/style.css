@@ -13,7 +13,7 @@ body{
     background-color:burlywood;
     color: azure;
     padding: 10%;
-   /* margin: auto; */
+    margin: auto; 
 }
 
 main{
