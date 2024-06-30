@@ -66,12 +66,7 @@ footer{
         width: 90%;
         padding: 10px;
     }
-
-    #addedColors{
-        min-height: fit-content;
-        max-height: 100px;
-    }
-
+    
     #btn{
         padding: 15px;
         font-size: 1em;
