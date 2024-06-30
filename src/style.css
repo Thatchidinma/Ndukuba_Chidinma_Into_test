@@ -60,7 +60,7 @@ footer{
 
     body{
         overflow: hidden;
-        margin: -50px auto;
+        padding: 0 10px;
     }
 
     main{
