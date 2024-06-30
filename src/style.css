@@ -13,7 +13,7 @@ body{
     background-color:burlywood;
     color: azure;
     padding: 10%;
-    margin: auto;
+   /* margin: auto; */
 }
 
 main{
@@ -59,7 +59,9 @@ footer{
 
 @media only screen and (max-width: 600px) {
 
- 
+    /*html{
+        overflow: hidden;
+    }*/
     main{
         width: 90%;
         padding: 10px;
