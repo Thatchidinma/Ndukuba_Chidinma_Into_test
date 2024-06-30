@@ -58,11 +58,11 @@ footer{
 
 @media only screen and (max-width: 600px) {
     body{
-        height: auto;
+        height: unset;
     }
 
     main{
-        margin: 10% auto;
+        margin: 20% auto;
         width: 90%;
         padding: 10px;
     }
