@@ -57,6 +57,10 @@ footer{
 }
 
 @media only screen and (max-width: 600px) {
+
+    html{
+        overflow: hidden;
+    }
     main{
         width: 90%;
         padding: 10px;
